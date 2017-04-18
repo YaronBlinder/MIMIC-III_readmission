@@ -32,13 +32,13 @@ metrics evaluation.
 
 ### Main results:
 Raw numerical data scatter matrix. A: Scatter matrix of all numerical features. B: zoomed-in view on the first 6 features. Each square shows the scatter plot corresponding to the two features defined by the row and column. The diagonal shows the kernel density estimation plots.
-![features before preprocessing](figures\scatter_comb_pre.png)
+![features before preprocessing](figures/scatter_comb_pre.png)
 
 Preprocessed numerical data scatter matrix. A: Scatter matrix of all numerical features. B: zoomed-in view on the first 6 features. Each square shows the scatter plot corresponding to the two features defined by the row and column. The diagonal shows the kernel density estimation plots.
-![features after preprocessing](figures\scatter_comb_post.png)
+![features after preprocessing](figures/scatter_comb_post.png)
 
 Receiver Operating Characteristic curve for the optimized model, using 5-fold cross validation.
-![ROC curve](figures\ROC.png)
+![ROC curve](figures/ROC.png)
 
 Important features. (A) shows the features sorted by “weight”. (B) shows kde plots for the top 9 most important features, separated by label.
-![Feature importance plot](figures\features.png)
+![Feature importance plot](figures/features.png)
